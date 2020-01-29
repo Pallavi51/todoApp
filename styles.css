@@ -1,0 +1,38 @@
+.add{
+    width: auto;
+    height: 60px;
+    border: 1px solid #706d6d;
+}
+
+.search{
+    width: auto;
+    height: auto;
+    border: 1px solid #706d6d;
+    margin-top: 20px;
+}
+
+.header{
+    width: auto;
+    text-align: center;
+}
+.addC{
+    width: 200px;
+    height: 35px;
+    margin: 7px 0 0 10px;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+}
+
+ul{
+    list-style-type: none;
+    
+   
+}
+
+ li{
+     font-size:19px;
+ }
+
+

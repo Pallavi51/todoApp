@@ -1,0 +1,33 @@
+<html>
+   <head>
+       <title>TODO LIST</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   </head> 
+   <body> 
+       <div class="header"><h1>TODO List</h1></div>
+        <div class="add">
+            <div class="add_container" style ="margin: 6px 0 0 6px;">
+                <input type="text" class="add_title addC" placeholder="Add title">
+                <input type="text" class="add_description addC" placeholder="Description">
+                <input type="button" class="add_btn btn"  id="add_button" value="Add">
+            </div>  
+        </div>
+        
+        <div class="search ">
+            <div class="search_container" style ="margin: 4px 0 15px 0;">
+                <input type="text" class="search_title addC" placeholder="Search title" id="search_ttl"  style ="margin-left:105px; width:250px">
+                <input type="button" class="search_btn btn" id="search_button" value="Search">
+            </div>
+        </div>
+           
+        <div id="container">
+            <ul id = "list"></ul>
+        </div>
+   </body>
+   
+   <script  src="toDoList.js"></script>
+</html>
